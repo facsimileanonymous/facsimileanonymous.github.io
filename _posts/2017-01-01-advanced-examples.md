@@ -1,5 +1,5 @@
 ---
-title:  "Advanced examples"
+title:  "Facsimileanonymous Advanced examples"
 mathjax: true
 layout: post
 categories: media
@@ -48,13 +48,26 @@ With the `jekyll-gist` plugin, which is preinstalled on Github Pages, you can em
 
 ## Images
 
-Upload an image to the *assets* folder and embed it with `![title](/assets/name.jpg))`. Keep in mind that the path needs to be adjusted if Jekyll is run inside a subfolder.
+Upload an image to the *assets* folder and embed it with `![title](/assets/name.jpg))`. Keep in mind that the path needs to be adjusted if Jekyll is run inside a subfolder.\
+
+Facsimile anonymous - this is a picture ! 
 
 A wrapper `div` with the class `large` can be used to increase the width of an image or iframe.
 
 ![Flower](https://user-images.githubusercontent.com/4943215/55412447-bcdb6c80-5567-11e9-8d12-b1e35fd5e50c.jpg)
 
 [Flower](https://unsplash.com/photos/iGrsa9rL11o) by Tj Holowaychuk
+
+![PotdeMIEL](/assets/miel.jpg) 10$
+
+Another image: 
+
+<div><img src="/assets/miel.jpg"
+     alt="pot de miel"
+      /> 
+</div>
+[comment]: <> (This is a comment, it will not be included)
+[comment]: <> (stere: initially above I tried to add style="float: left; margin-right: 10px;" to the image, just below the alt)
 
 ## Embedded content
 
